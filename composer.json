@@ -1,0 +1,32 @@
+{
+    "name": "woody-wordpress/woody-plugin",
+    "type": "wordpress-plugin",
+    "version": "1.43.1",
+    "description": "This plugin adds all the features of Woody Addons",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Léo POIROUX",
+            "email": "leo@raccourci.fr"
+        },
+        {
+            "name": "Benoit BOUCHAUD",
+            "email": "benoit.bouchaud@raccourci.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Woody\\": [
+                "src/"
+            ]
+        }
+    },
+    "require": {
+        "php": "^7.3",
+        "guzzlehttp/guzzle": "^6.3",
+        "league/commonmark": "^2.2",
+        "symfony/finder": "^5.1",
+        "symfony/process": "^5.1",
+        "twig/twig": "^1.0"
+    }
+}

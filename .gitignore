@@ -1,0 +1,20 @@
+# Global
+.DS_Store
+._.*
+
+# Composer
+bin
+vendor/*
+!vendor/.gitkeep
+
+# Theme Foundation
+node_modules
+npm-debug.log
+config.yml
+*.sass-cache*
+*.log
+.idea/
+*.swp
+
+# Custom
+src/App/Logs/*

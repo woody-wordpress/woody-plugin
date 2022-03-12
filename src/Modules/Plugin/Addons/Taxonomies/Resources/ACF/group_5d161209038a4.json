@@ -1,0 +1,101 @@
+{
+    "key": "group_5d161209038a4",
+    "title": "Icône Taxonomies (Woody Plugin)",
+    "fields": [
+        {
+            "key": "field_5d16129d7d93a",
+            "label": "Icône associée",
+            "name": "woody_icon",
+            "type": "select",
+            "instructions": "Assignez une icône à un terme, il sera utilisé un peu partout sur votre site.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {},
+            "default_value": [],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 1,
+            "return_format": "value",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "all"
+            },
+            {
+                "param": "taxonomy",
+                "operator": "!=",
+                "value": "category"
+            },
+            {
+                "param": "taxonomy",
+                "operator": "!=",
+                "value": "post_tag"
+            },
+            {
+                "param": "taxonomy",
+                "operator": "!=",
+                "value": "post_format"
+            },
+            {
+                "param": "taxonomy",
+                "operator": "!=",
+                "value": "language"
+            },
+            {
+                "param": "taxonomy",
+                "operator": "!=",
+                "value": "post_translations"
+            },
+            {
+                "param": "taxonomy",
+                "operator": "!=",
+                "value": "term_language"
+            },
+            {
+                "param": "taxonomy",
+                "operator": "!=",
+                "value": "term_translations"
+            },
+            {
+                "param": "taxonomy",
+                "operator": "!=",
+                "value": "page_type"
+            },
+            {
+                "param": "taxonomy",
+                "operator": "!=",
+                "value": "attachment_types"
+            },
+            {
+                "param": "taxonomy",
+                "operator": "!=",
+                "value": "attachment_categories"
+            },
+            {
+                "param": "taxonomy",
+                "operator": "!=",
+                "value": "attachment_hashtags"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "Champ icône pour les taxonomies",
+    "modified": 1563283162
+}
